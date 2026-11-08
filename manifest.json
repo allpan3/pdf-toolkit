@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "PDF Toolkit",
+  "version": "0.2.4",
+  "description": "Open PDF attachments with the system reader and embed Zotero annotations in the attached PDF.",
+  "author": "Local development",
+  "applications": {
+    "zotero": {
+      "id": "pdf-toolkit@local",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://pdf-toolkit.invalid/updates.json"
+    }
+  }
+}

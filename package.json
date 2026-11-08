@@ -1,0 +1,17 @@
+{
+  "name": "zotero-pdf-toolkit",
+  "version": "0.2.4",
+  "private": true,
+  "description": "Zotero 10 PDF actions",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "python3 scripts/build.py",
+    "check": "node --check bootstrap.js && node --check src/toolkit.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}
